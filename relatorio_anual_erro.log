@@ -1,0 +1,197 @@
+Traceback (most recent call last):
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 220, in <module>
+    gerar_relatorio_anual(compras_df, custos_df, receb_df, ano)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 132, in gerar_relatorio_anual
+    salvar_grafico_pizza_resumo(valores, labels, cores, f"{nome_mes} - Resumo", grafico_file)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 27, in salvar_grafico_pizza_resumo
+    plt.pie(valores, labels=labels, autopct='%1.1f%%', startangle=90, colors=cores)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\_api\deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\pyplot.py", line 3795, in pie
+    return gca().pie(
+           ~~~~~~~~~^
+        x,
+        ^^
+    ...<17 lines>...
+        **({"data": data} if data is not None else {}),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\_api\deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\__init__.py", line 1521, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\axes\_axes.py", line 3409, in pie
+    w = mpatches.Wedge((x, y), radius, 360. * min(theta1, theta2),
+                       360. * max(theta1, theta2),
+    ...<2 lines>...
+                       clip_on=False,
+                       label=label)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\patches.py", line 1252, in __init__
+    self._recompute_path()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\patches.py", line 1264, in _recompute_path
+    arc = Path.arc(theta1, theta2)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\path.py", line 961, in arc
+    n = int(2 ** np.ceil((eta2 - eta1) / halfpi))
+ValueError: cannot convert float NaN to integer
+
+Traceback (most recent call last):
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 220, in <module>
+    gerar_relatorio_anual(compras_df, custos_df, receb_df, ano)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 132, in gerar_relatorio_anual
+    salvar_grafico_pizza_resumo(valores, labels, cores, f"{nome_mes} - Resumo", grafico_file)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 27, in salvar_grafico_pizza_resumo
+    plt.pie(valores, labels=labels, autopct='%1.1f%%', startangle=90, colors=cores)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\_api\deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\pyplot.py", line 3795, in pie
+    return gca().pie(
+           ~~~~~~~~~^
+        x,
+        ^^
+    ...<17 lines>...
+        **({"data": data} if data is not None else {}),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\_api\deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\__init__.py", line 1521, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\axes\_axes.py", line 3409, in pie
+    w = mpatches.Wedge((x, y), radius, 360. * min(theta1, theta2),
+                       360. * max(theta1, theta2),
+    ...<2 lines>...
+                       clip_on=False,
+                       label=label)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\patches.py", line 1252, in __init__
+    self._recompute_path()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\patches.py", line 1264, in _recompute_path
+    arc = Path.arc(theta1, theta2)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\path.py", line 961, in arc
+    n = int(2 ** np.ceil((eta2 - eta1) / halfpi))
+ValueError: cannot convert float NaN to integer
+
+Traceback (most recent call last):
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 220, in <module>
+    gerar_relatorio_anual(compras_df, custos_df, receb_df, ano)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 132, in gerar_relatorio_anual
+    salvar_grafico_pizza_resumo(valores, labels, cores, f"{nome_mes} - Resumo", grafico_file)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 27, in salvar_grafico_pizza_resumo
+    plt.pie(valores, labels=labels, autopct='%1.1f%%', startangle=90, colors=cores)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\_api\deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\pyplot.py", line 3795, in pie
+    return gca().pie(
+           ~~~~~~~~~^
+        x,
+        ^^
+    ...<17 lines>...
+        **({"data": data} if data is not None else {}),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\_api\deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\__init__.py", line 1521, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\axes\_axes.py", line 3409, in pie
+    w = mpatches.Wedge((x, y), radius, 360. * min(theta1, theta2),
+                       360. * max(theta1, theta2),
+    ...<2 lines>...
+                       clip_on=False,
+                       label=label)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\patches.py", line 1252, in __init__
+    self._recompute_path()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\patches.py", line 1264, in _recompute_path
+    arc = Path.arc(theta1, theta2)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\path.py", line 961, in arc
+    n = int(2 ** np.ceil((eta2 - eta1) / halfpi))
+ValueError: cannot convert float NaN to integer
+
+Traceback (most recent call last):
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 220, in <module>
+    gerar_relatorio_anual(compras_df, custos_df, receb_df, ano)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 132, in gerar_relatorio_anual
+    salvar_grafico_pizza_resumo(valores, labels, cores, f"{nome_mes} - Resumo", grafico_file)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v02.py", line 27, in salvar_grafico_pizza_resumo
+    plt.pie(valores, labels=labels, autopct='%1.1f%%', startangle=90, colors=cores)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\_api\deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\pyplot.py", line 3795, in pie
+    return gca().pie(
+           ~~~~~~~~~^
+        x,
+        ^^
+    ...<17 lines>...
+        **({"data": data} if data is not None else {}),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\_api\deprecation.py", line 453, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\__init__.py", line 1521, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\axes\_axes.py", line 3409, in pie
+    w = mpatches.Wedge((x, y), radius, 360. * min(theta1, theta2),
+                       360. * max(theta1, theta2),
+    ...<2 lines>...
+                       clip_on=False,
+                       label=label)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\patches.py", line 1252, in __init__
+    self._recompute_path()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\patches.py", line 1264, in _recompute_path
+    arc = Path.arc(theta1, theta2)
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\matplotlib\path.py", line 961, in arc
+    n = int(2 ** np.ceil((eta2 - eta1) / halfpi))
+ValueError: cannot convert float NaN to integer
+
+Traceback (most recent call last):
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v04.py", line 214, in <module>
+    gerar_relatorio_anual(compras_df, custos_df, receb_df, ano)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\OneDrive\Desktop\lanchonete\Pro_Mensal-v04.py", line 190, in gerar_relatorio_anual
+    pdf.output(f"{output_dir}/relatorio_anual_{ano}.pdf")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 1065, in output
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 246, in close
+    self._enddoc()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 1636, in _enddoc
+    self._putpages()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Pc_1\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 1170, in _putpages
+    p = self.pages[n].encode("latin1") if PY3K else self.pages[n]
+        ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u21aa' in position 880: ordinal not in range(256)
+
